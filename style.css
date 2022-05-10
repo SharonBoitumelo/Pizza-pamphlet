@@ -1,0 +1,72 @@
+ 
+.Perfect{ 
+    background-color: aquamarine;
+}   
+.pizza { 
+    background-color: orangered;
+    margin: 2em; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+}
+    
+
+
+@media (min-width: 960px) {
+  .pizzas {
+      display: flex;
+     margin: 2em;
+      
+  }
+      body {
+          background-color: blueviolet;
+      }
+  }            
+
+  .Small {
+      background-color: palevioletred;
+      margin-right: 2em;
+      /* display: flex; */
+      border: 2px solid yellow;
+      padding: 2em;
+      border-radius: 6px;
+      flex: 1;
+  } 
+
+  .Medium {
+      background-color: yellow;
+      margin-right: 2em;
+      /* display: flex; */
+      border: 2px solid red;
+      padding: 2em;
+      border-radius: 6px;
+      flex: 1;
+
+  }
+
+  .Large {
+      background-color: yellowgreen;
+      margin-right: 2em;
+      /* display: flex; */
+      border: 2px solid blue;
+      padding: 2em;
+      border-radius: 6px;
+      flex: 1;
+  }
+ .footer {
+     position: bottom;
+    background-color: blue;
+    display: flex;
+    border: 2px solid cornflowerblue;
+    padding: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2em;
+    border-radius: 6px;
+    margin-right: 2em;
+    flex: 1;
+
+}
+.address {
+    text-align: right;
+    flex: 1;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
